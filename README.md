@@ -1,7 +1,7 @@
 ## 初始化git项目
-`git init <repository name>` 
+`git init lerna-example`
 
-## 初始化 lerna 
+## `cd lerna-example` 初始化lerna
 
 `lerna init`
 
@@ -9,7 +9,7 @@
 
 `cd packges` 
 
-## 初始化npm包(npm init命令) lerna-exp-a, lerna-exp-b   ps: 不懂度娘～～～
+## 初始化npm包 lerna-exp-a, lerna-exp-b 默认使用版本号：0.0.1
 
 `cd lerna-exp-a`
 
@@ -33,7 +33,7 @@
 
 `git commit -m test`
 
-`git remote add origin https://github.com/vipway/lerna-example.git` (此仓库应为实际测试地址)
+`git remote add origin https://github.com/vipway/lerna-example.git` (此仓库应为实际测试仓库地址)
 
 `git push --set-upstream origin master`
 
@@ -41,7 +41,7 @@
 
 `lerna publish --skip-git`
 
-## 将包 lerna-exp-b 下 index.js 插入代码 `console.log('update')` 并保存，执行
+## 进入 lerna-exp-b文件夹，编辑 index.js 插入代码 `console.log('update')` 保存，执行
 
 `git add -A`
 
