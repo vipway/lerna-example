@@ -27,11 +27,25 @@
 
 `lerna bootstrap`
 
-## 关键远程git 添加`--skip-git`则不提交至远程git
+## 关连远程git
+
+`git add -A`
+
+`git commit -m test`
+
+`git remote add origin https://github.com/vipway/lerna-example.git` (此仓库应为实际测试地址)
+
+`git push --set-upstream origin master`
+
+## 发布至npm，添加`--skip-git`则不提交至远程git
 
 `lerna publish --skip-git`
 
-## 将包 lerna-exp-b 下 index.js 插入代码 `console.log('update')` 保存
+## 将包 lerna-exp-b 下 index.js 插入代码 `console.log('update')` 并保存，执行
+
+`git add -A`
+
+`git commit -m update`
 
 ## 返回根目录，提交代码至git并更新npm包。根据提示，输入更新版本号，完成更新
 
