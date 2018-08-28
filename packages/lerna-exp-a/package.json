@@ -6,6 +6,6 @@
   "author": "jiawei.mao",
   "license": "MIT",
   "dependencies": {
-    "lerna-exp-b": "^0.0.1"
+    "lerna-exp-b": "^0.0.3"
   }
 }
