@@ -1,0 +1,11 @@
+{
+  "name": "lerna-exp-a",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "author": "jiawei.mao",
+  "license": "MIT",
+  "dependencies": {
+    "lerna-exp-b": "^0.0.1"
+  }
+}
