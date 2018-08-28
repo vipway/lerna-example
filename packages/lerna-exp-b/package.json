@@ -1,6 +1,6 @@
 {
   "name": "lerna-exp-b",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "jiawei.mao",
   "license": "MIT"
